@@ -1,7 +1,7 @@
 .side-menu {
     display: grid;
     gap: 10px;
-    width: 200px;
+    width: 500px;
     height: 103vh;
     background-color: rgb(22, 99, 73);
     border-radius: 10px;

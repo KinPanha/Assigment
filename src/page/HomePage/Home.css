@@ -1,201 +1,205 @@
 .date-data {
-    text-align: center;
-    justify-items: center;
+  text-align: center;
+  justify-items: center;
 }
-
 
 input[type="search"] {
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-    border-radius: 10px;
-    outline: none;
-    border: 2px solid rgb(29, 124, 93);
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(29, 124, 93);
 }
 
-input[type='search']::placeholder {
-    font-size: 13px;
-    margin-left: 10px;
+input[type="search"]::placeholder {
+  font-size: 13px;
+  margin-left: 10px;
 }
 
 .weather {
-    text-align: center;
+  text-align: center;
 }
 
 input[type="text"] {
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-    border-radius: 10px;
-    outline: none;
-    border: 2px solid rgb(29, 124, 93);
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(29, 124, 93);
 }
 
-input[type='text']::placeholder {
-    font-size: 13px;
-    margin-left: 10px;
+input[type="text"]::placeholder {
+  font-size: 13px;
+  margin-left: 10px;
 }
 
 .search-button {
-    height: 30px;
-    width: 60px;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 10px;
-    cursor: pointer;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(29, 124, 93);
+  color: white;
+  border: 2px solid  rgb(29, 124, 93);
 }
 
 .fav-button {
-    height: 30px;
-    width: 150px;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 10px;
-    cursor: pointer;
+  height: 30px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(29, 124, 93);
+  color: white;
+  border: 2px solid  rgb(29, 124, 93);
 }
 
 .search-button:hover {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
 
 .fav-button:hover {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
 
 .weather-home {
-    text-align: center;
+  text-align: center;
 }
 
 .lds-roller {
-    display: inline-block;
-    position: relative;
-    width: 80px;
-    height: 80px;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
 }
 
 .lds-roller div {
-    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    transform-origin: 40px 40px;
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
 }
 
 .lds-roller div:after {
-    content: " ";
-    display: block;
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: #fff;
-    margin: -4px 0 0 -4px;
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
 }
 
 .lds-roller div:nth-child(1) {
-    animation-delay: -0.036s;
+  animation-delay: -0.036s;
 }
 
 .lds-roller div:nth-child(1):after {
-    top: 63px;
-    left: 63px;
+  top: 63px;
+  left: 63px;
 }
 
 .lds-roller div:nth-child(2) {
-    animation-delay: -0.072s;
+  animation-delay: -0.072s;
 }
 
 .lds-roller div:nth-child(2):after {
-    top: 68px;
-    left: 56px;
+  top: 68px;
+  left: 56px;
 }
 
 .lds-roller div:nth-child(3) {
-    animation-delay: -0.108s;
+  animation-delay: -0.108s;
 }
 
 .lds-roller div:nth-child(3):after {
-    top: 71px;
-    left: 48px;
+  top: 71px;
+  left: 48px;
 }
 
 .lds-roller div:nth-child(4) {
-    animation-delay: -0.144s;
+  animation-delay: -0.144s;
 }
 
 .lds-roller div:nth-child(4):after {
-    top: 72px;
-    left: 40px;
+  top: 72px;
+  left: 40px;
 }
 
 .lds-roller div:nth-child(5) {
-    animation-delay: -0.18s;
+  animation-delay: -0.18s;
 }
 
 .lds-roller div:nth-child(5):after {
-    top: 71px;
-    left: 32px;
+  top: 71px;
+  left: 32px;
 }
 
 .lds-roller div:nth-child(6) {
-    animation-delay: -0.216s;
+  animation-delay: -0.216s;
 }
 
 .lds-roller div:nth-child(6):after {
-    top: 68px;
-    left: 24px;
+  top: 68px;
+  left: 24px;
 }
 
 .lds-roller div:nth-child(7) {
-    animation-delay: -0.252s;
+  animation-delay: -0.252s;
 }
 
 .lds-roller div:nth-child(7):after {
-    top: 63px;
-    left: 17px;
+  top: 63px;
+  left: 17px;
 }
 
 .lds-roller div:nth-child(8) {
-    animation-delay: -0.288s;
+  animation-delay: -0.288s;
 }
 
 .lds-roller div:nth-child(8):after {
-    top: 56px;
-    left: 12px;
+  top: 56px;
+  left: 12px;
 }
-.loading{
-    margin: auto;
+.loading {
+  margin: auto;
 }
 @keyframes lds-roller {
-    0% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
 
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (max-width: 800px) {
+  input[type="text"],
+  input[type="search"] {
+    width: 80%;
+    margin-bottom: 10px;
+  }
 
-    input[type="text"],
-    input[type="search"] {
-        width: 80%;
-        margin-bottom: 10px;
-    }
+  .search-button,
+  .fav-button {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
 
-    .search-button,
-    .fav-button {
-        width: 30%;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
+  .date-data {
+    font-size: 14px;
+  }
 
-    .date-data {
-        font-size: 14px;
-    }
-
-    .weather-home {
-        margin-top: 10px;
-    }
+  .weather-home {
+    margin-top: 10px;
+  }
 }
