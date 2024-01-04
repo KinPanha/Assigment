@@ -1,0 +1,102 @@
+.side-menu {
+    display: grid;
+    gap: 10px;
+    width: 200px;
+    height: 103vh;
+    background-color: rgb(22, 99, 73);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.active {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 16px;
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.unActive {
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 16px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.unActive:hover {
+    background-color: black;
+    text-align: center;
+    height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .side-menu {
+        display: none;
+    }
+    .vertical-menu{
+        position: absolute;
+        display: grid;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .unActive {
+        color: white;
+        background-color: transparent;
+        border-radius: 10px;
+        height: 20px;
+        width: 70px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        font-size: 10px;
+        margin: auto;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .active {
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        height: 20px;
+        width: 70px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        font-size: 10px;
+        margin: auto;
+        padding-top: 10px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width : 800px) {
+    .vertical-menu {
+        display: none
+    }
+
+
+}

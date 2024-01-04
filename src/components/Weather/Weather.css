@@ -1,0 +1,15 @@
+.card-weather {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(29, 124, 93);
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+    margin: auto;
+}
+
+.weather-text {
+    text-align: center;
+    align-content: center;
+}

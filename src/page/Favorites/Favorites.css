@@ -1,0 +1,64 @@
+.favorite {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+.fav {
+    display: grid;
+}
+
+.button-fav {
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.button-fav {
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+
+}
+
+.button-fav:hover {
+    background-color: red;
+    color: white;
+}
+
+.fav {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(29, 124, 93);
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.item-weather {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .fav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .item-weather {
+        grid-template-columns: 1fr;
+    }
+
+    .button-fav {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

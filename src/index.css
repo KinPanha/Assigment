@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(215, 206, 206);
+}
+
+.page {
+  background-color: rgb(102, 190, 202);
+  width: 160vh;
+  border-radius: 10px;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.date {
+  border-radius: 10px;
+  background-color: rgb(29, 124, 93);
+  color: white;
+  height: 35px;
+  justify-items: center;
+  padding-top: 10px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.firstContent {
+  display: flex;
+  grid-row: 1;
+  gap: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .page {
+    height: 400vh;
+    width: 200vh;
+  }
+}
+
+@media screen and (min-width : 800) {
+  .page {
+    background-color: rgb(102, 190, 202);
+    width: 100vh;
+    border-radius: 10px;
+    height: 100vh;
+    padding-top: 20px;
+    margin-left: 10px;
+  }
+}
